@@ -97,3 +97,13 @@ ssh -i ~/.ssh/id_rsa USER_NAME@VM_EXTERNAL_IP
 
 # edit the command
 ssh -i ~/.ssh/id_rsa lekeanyi@34.68.91.78
+
+# edit the command
+ssh -i ~/.ssh/id_rsa lekeanyi@34.68.91.78
+
+# Each time you want to see your public key, just run the command
+cat ~/.ssh/id_rsa.pub
+# your public key will appear for you to copy it.
+
+# Now, to just log into the VM, just do
+ssh <paste the external ip of the vm that you want to log into it here>
